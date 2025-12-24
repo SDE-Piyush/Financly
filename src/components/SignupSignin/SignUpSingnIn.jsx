@@ -170,9 +170,9 @@ const SignUpSingnIn = () => {
                 <div className='signup-wrapper'>
                     <h2 className='title'> Sign up on <span style={{ color: "var(--theme)" }}>Financly.</span></h2>
                     <form>
-                        <Input label={"Full Name"} state={name} setState={setName} placeholder={"John Doe"}
+                        <Input label={"Full Name"} state={name} setState={setName} placeholder={"Piyush Kumar"}
                         />
-                        <Input type={email} label={"Email"} state={email} setState={setEmail} placeholder={"JohnDoe@gmail.com"}
+                        <Input type={email} label={"Email"} state={email} setState={setEmail} placeholder={"piyush@gmail.com"}
                         />
                         <Input type="password" label={"Password"} state={password} setState={setPassword} placeholder={"Example@123"}
                         />
